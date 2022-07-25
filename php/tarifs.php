@@ -130,6 +130,80 @@
 
       ?>
 
+
+
+
+
+
+  <h2>Consommation :</h2>
+
+  <?php
+// [...]
+
+$extras = [
+  [
+    'Popcorn',
+    'L',
+    2.9
+  ],
+  [
+    'Popcorn',
+    'XL',
+    4
+  ],
+  [
+    'Chips',
+    '50g',
+    2.5
+  ],
+  [
+    'M&M\'s',
+    '100g',
+    4
+  ],
+  [
+    'Soda',
+    '33cl',
+    3.2
+  ],
+  [
+    'Evian',
+    '33cl',
+    3
+  ]
+]; ?>
+
+<?php 
+
+
+     
+      $cons = 0;
+      $extras[$cons];
+      $nomConso = $conso[$cons];
+      $tailleConso = $conso[1];
+      $prixConso = $conso[2];
+
+
+
+for ($cons = 0; $cons < 6; $cons ++) {
+      echo "<li>" .$nomConso." ".  $tailleConso. " ".  $prixConso. "</li>";
+ 
+      
+  }
+  
+  
+  ?>
+
+
+       
+
+          
+   
+
+
+
+
+
       <h2 class="page__title">Tarif âge par âge</h2>
       
       <div class="prices">
