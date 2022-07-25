@@ -57,12 +57,49 @@ for ($indice = 0; $indice < 6; $indice ++) {
     //var_dump($films[$indice]);?>
 
     <?php echo "<li>".$films[$indice]."</li>"; ?>
-
+   
     <?php
         }
     ?>
 
     </ul>
+
+   
+
+
+                <?php
+            // .]
+            $rooms = [
+            'Athéna',
+            'Dyonisos',
+            'Hadès',
+            'Zeus'
+            ];?>
+
+    <h3> Salles : </h3>
+
+
+    <ul>
+        <li> 
+       
+         
+         
+         <?php 
+         
+       
+
+         for ($i = 0; $i < 4; $i ++) {
+
+            echo "<li>".$rooms[$i]."</li>";
+         }
+         
+         
+         ?>
+  
+
+    </ul>
+
+
 
 </section>
 </main>
